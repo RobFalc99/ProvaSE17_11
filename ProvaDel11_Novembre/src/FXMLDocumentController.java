@@ -22,6 +22,10 @@ public class FXMLDocumentController implements Initializable {
     private Label label;
     @FXML
     private Button button;
+    @FXML
+    private Button btnLuigi;
+    @FXML
+    private Button btnLuigi1;
     
     @FXML
     private void handleButtonAction(ActionEvent event) {
@@ -37,6 +41,11 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void BottoneLuigi(ActionEvent event) {
         System.out.println("Hai cliccato sul bottone Luigi");
+    }
+
+    @FXML
+    private void BottoneLuigiNuovo(ActionEvent event) {
+        System.out.println("Hey ho creato un nuovo bottone porco zio");
     }
     
 }
