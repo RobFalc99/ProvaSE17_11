@@ -46,6 +46,7 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private void BottoneLuigiNuovo(ActionEvent event) {
         System.out.println("Hey ho creato un nuovo bottone porco zio");
+        label.setText("SPIDERMAN ALLA FINE DIVENTA DOC OC");
     }
     
 }
