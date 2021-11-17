@@ -40,7 +40,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     private void BottoneLuigi(ActionEvent event) {
-        System.out.println("Hai cliccato sul bottone Luigi, NAPOSNACK FA I NAPOPASTICCINI");
+        System.out.println("Hai cliccato sul bottone Adolfo, NAPOSNACK FA I NAPOPASTICCINI");
     }
 
     @FXML
